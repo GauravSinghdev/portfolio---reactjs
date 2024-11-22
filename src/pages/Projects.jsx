@@ -40,23 +40,24 @@ const Projects = () => {
   ];
   return (
     <main className="max-w-5xl mx-auto flex flex-col gap-12">
-      {/* navbar compo */}
       <Navbar />
-      {/* main content */}
-      <section className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10">
-        {projects.map((proj, index) => {
-          return (
-            <Card
-              key={index}
-              imgLink={proj.imgLink}
-              title={proj.title}
-              description={proj.description}
-              stack={proj.stack}
-              gitLink={proj.gitLink}
-              liveLink={proj.liveLink}
-            />
-          );
-        })}
+
+      <section>
+        <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10">
+          {projects.map((proj, index) => {
+            return (
+              <Card
+                key={index}
+                imgLink={proj.imgLink}
+                title={proj.title}
+                description={proj.description}
+                stack={proj.stack}
+                gitLink={proj.gitLink}
+                liveLink={proj.liveLink}
+              />
+            );
+          })}
+        </div>
       </section>
 
       <Footer />
