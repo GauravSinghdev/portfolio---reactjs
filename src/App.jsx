@@ -5,7 +5,7 @@ import About from './pages/About'
 import Reviews from './pages/Reviews'
 import Projects from './pages/Projects'
 import NotFound from './pages/NotFound'
-
+  
 const App = () => {
   return (
     <BrowserRouter>

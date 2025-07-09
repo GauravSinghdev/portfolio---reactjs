@@ -13,10 +13,9 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: black;
-  color: #f8f8ff;
+  /* background-color: black;
+  color: #f8f8ff; */
   scroll-behavior: smooth;
-  /* font-size: 18px; */
 }
 
 .MyGrad {
@@ -27,4 +26,9 @@ body {
     rgba(0, 0, 0, 1) 80%,
     rgba(0, 0, 0, 0)
   );
+}
+
+.dark{
+  background-color: black;
+  color:whitesmoke
 }

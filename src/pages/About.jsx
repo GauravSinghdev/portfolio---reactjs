@@ -15,12 +15,12 @@ const About = () => {
         <div className="px-8 flex gap-5">
           <div className="w-[75%] flex flex-col">
             <div>
-              <p className="text-5xl font-bold text-gray-200 tracking-wider leading-tight">
+              <p className="text-5xl font-bold text-gray-700 tracking-wider leading-tight dark:text-gray-300">
                 Myself <span className="text-txtFav">Gaurav Singh</span> and
                 I&apos;m a Full Stack Engineer.
               </p>
             </div>
-            <div className="text-xl text-gray-400 mt-5 leading-loose">
+            <div className="text-xl text-gray-500 dark:text-gray-400  mt-5 leading-loose">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita
               quisquam explicabo, aperiam repellat ipsum accusantium beatae,
               omnis sequi, doloribus sint temporibus a optio quos velit.
@@ -63,7 +63,7 @@ const About = () => {
         </div>
 
         <div className="px-8 flex gap-10">
-          <div className="text-lg text-gray-400 mt-5 leading-loose">
+          <div className="text-lg text-gray-500 mt-5 leading-loose dark:text-gray-400 ">
             Fugit quas accusantium animi officiis, expedita dicta quos hic
             maxime consequatur optio dolore distinctio in officia! Sunt atque
             similique pariatur sit eius aliquam odio et ab aliquid, aspernatur
@@ -75,7 +75,7 @@ const About = () => {
         </div>
 
         <div className="px-8 flex gap-10">
-          <div className="text-lg text-gray-400 mt-5 leading-loose">
+          <div className="text-lg text-gray-500 mt-5 leading-loose dark:text-gray-400 ">
             Eaque totam iure sint. Laudantium recusandae facere deleniti. Beatae
             maxime blanditiis officia dolores? Accusantium id, facere sed beatae
             necessitatibus inventore asperiores ipsa nisi, est blanditiis quas
@@ -86,7 +86,6 @@ const About = () => {
           </div>
         </div>
       </section>
-
       <Footer />
     </main>
   );

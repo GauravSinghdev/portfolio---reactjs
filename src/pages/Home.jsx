@@ -19,12 +19,12 @@ const Home = () => {
           <div className="flex gap-4">
             {/* bio div */}
             <div className="w-[60%] flex flex-col gap-10">
-              <p className="text-5xl font-bold text-gray-200 tracking-wider leading-tight">
+              <p className="text-5xl font-bold text-gray-700 dark:text-gray-300 tracking-wider leading-tight">
                 Hi there, I&apos;m a{" "}
                 <span className="text-txtFav">Software Engineer.</span>
               </p>
 
-              <div className="text-xl text-gray-400">
+              <div className="text-xl text-gray-600 dark:text-gray-400">
                 Meet Gaurav, he is a skilled web developer with expertise in
                 both front-end and back-end technologies and modern web
                 development frameworks. Known for writing clean, maintainable

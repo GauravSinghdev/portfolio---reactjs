@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ imgLink, title, description, stack, gitLink, liveLink }) => {
   return (
-    <div className="max-w-sm bg-white border border-gray-200 rounded-xl shadow dark:bg-gray-800 dark:border-gray-700">
+    <div className="max-w-sm bg-white rounded-xl shadow hover:scale-110 transition-all duration-300">
       <a href={liveLink} target="_blank">
         <img
           className="rounded-t-xl h-60 w-full object-cover"
@@ -25,7 +25,8 @@ const Card = ({ imgLink, title, description, stack, gitLink, liveLink }) => {
         {/* link section */}
         <div className="flex justify-between space-x-2">
           <a
-            href={liveLink} target="_blank"
+            href={liveLink}
+            target="_blank"
             className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             Live
@@ -46,7 +47,8 @@ const Card = ({ imgLink, title, description, stack, gitLink, liveLink }) => {
             </svg>
           </a>
           <a
-            href={gitLink} target="_blank"
+            href={gitLink}
+            target="_blank"
             className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             Github
